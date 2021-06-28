@@ -30,6 +30,13 @@ body {
     background: whitesmoke;
 }
 
+section {
+    min-height: 100vh;
+    padding: 0 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -73,6 +80,30 @@ header label {
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./assets/img/inicio_fondo.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inicio .img img {
+    width: 40vw;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0rem);
+    }
+    50% {
+        transform: translateY(-3.5rem);
+    }
 }
 
 @media(max-width:1200px) {
