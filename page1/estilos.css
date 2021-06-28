@@ -188,7 +188,7 @@ header label {
 }
 
 .acerca_de {
-    background: url(./assets/img/fondo_2.png) no-repeat;
+    background: url(./assets/img/fondo_2.webp) no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 3rem;
